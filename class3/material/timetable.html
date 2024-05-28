@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Time Table</title>
+    <style>
+        body {
+            background-image: url("image/rafiki.gif");
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        table, caption {
+            background-color: white;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 0px 0px 10px rgb(0, 255, 0), 0px 0px 20px rgb(0, 255, 0), 0px 0px 30px rgb(0, 255, 0), 0px 0px 40px rgb(0, 255, 0);
+            background-color: black;
+        }
+        #time-table-icon {
+            margin: auto;
+            width: 100px;
+            height: 100px;
+        }
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+        tr:hover{
+            background-color: rgb(190, 190, 190);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Time Table</h1><img id="time-table-icon" src="image/time.png" alt="icon">
+    <table border="1">
+        <caption>Time table: <a href="https://scombz.shibaura-it.ac.jp/login">go to ScombZ</a></caption>
+        <tr>
+            <th></th>
+            <th>Monday (月)</th>
+            <th>Tuesday (火)</th>
+            <th>Wednesday (水)</th>
+            <th>Thursday (木)</th>
+            <th>Friday (金)</th>
+        </tr>
+        <tr>
+            <th>9h00-10h40</th>
+            <td></td>
+            <td>Information Network Design</td>
+            <td rowspan="2">Artificial Intelligence in Games</td>
+            <td rowspan="2">Web Design and Programming</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>10h50-12h30</th>
+            <td></td>
+            <td>Advanced OS and Virtualization</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>13h20-15h00</th>
+            <td>Topics in Data Engineering</td>
+            <td></td>
+            <td></td>
+            <td>Japanese Language II</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>15h10-16h50</th>
+            <td></td>
+            <td>Software Design</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>17h00-18h40</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
